@@ -112,3 +112,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Aliases
 alias v="nvim"
+alias conty_lutris="~/Games/conty/conty.sh lutris"
+
+# Functions
