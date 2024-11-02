@@ -119,4 +119,7 @@ alias conty_lutris="~/Games/conty/conty.sh lutris"
 # Zoxide
 eval "$(zoxide init zsh)"
 
+# Go
+export PATH=$PATH:/usr/local/go/bin
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
