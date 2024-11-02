@@ -115,3 +115,8 @@ alias v="nvim"
 alias conty_lutris="~/Games/conty/conty.sh lutris"
 
 # Functions
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

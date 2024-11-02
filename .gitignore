@@ -1,4 +1,4 @@
-.config/tmux/plugins
-.config/tmux/*.log
+tmux/.config/tmux/plugins
+tmux/.config/tmux/*.log
 .config/**/.tmp*
-.config/lazygit/state.yml
+nvim/.config/lazygit/state.yml
