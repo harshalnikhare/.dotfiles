@@ -122,4 +122,8 @@ eval "$(zoxide init zsh)"
 # Go
 export PATH=$PATH:/usr/local/go/bin
 
+# tmux fix
+source ~/.fzf.zsh
+if [ "$TMUX" = "" ]; then tmux; fi
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
